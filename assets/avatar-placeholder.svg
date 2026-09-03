@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title><desc id="desc">A neutral monogram placeholder for a profile image.</desc>
+  <rect width="500" height="500" fill="#d8e0e6"/>
+  <circle cx="250" cy="190" r="88" fill="#9eb1bf"/>
+  <path d="M78 500c10-122 85-189 172-189s162 67 172 189" fill="#9eb1bf"/>
+  <rect x="48" y="48" width="404" height="404" fill="none" stroke="#f8f4ee" stroke-width="5"/>
+  <text x="250" y="432" text-anchor="middle" fill="#f8f4ee" font-family="Georgia,serif" font-size="35" letter-spacing="7">YOUR PHOTO</text>
+</svg>

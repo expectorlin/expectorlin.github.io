@@ -1,245 +1,167 @@
-<!DOCTYPE html>
-<head>
-    <title>Bingqian Lin</title>
-    <meta name="author" content="Bingqian Lin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Bingqian Lin">
-	<meta property="og:description" content="Postdoctoral Fellow, Shanghai Jiao Tong University">
-    <meta property="og:image" content="https://expectorlin.github.io/files/me-cut-new-2.png">
-	<meta property="og:url" content="https://expectorlin.github.io/">
-<!-- 	<meta name="twitter:card" content="summary_large_image"> -->
-    <link rel="apple-touch-icon" href="files/ucsd-logo.png">
-    <link rel="icon" type="image/png" href="files/ucsd-logo.png">
-    <link rel="manifest" href="files/site.webmanifest">
-    <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Academic personal homepage template for GitHub Pages." />
+    <meta name="theme-color" content="#fbfaf7" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Bingqian Lin's Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="wordmark" href="#home" aria-label="Go to homepage">Bingqian Lin</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#biography">Biography</a>
+          <a href="#news">News</a>
+          <a href="#publications">Publications</a>
+          <a href="#reviewer-services">Reviewer Services</a>
+          <a href="#awards">Awards</a>
+        </nav>
+      </div>
+    </header>
 
-<div class="header noselect">
-    <div class="content row">
-        <div class="header-profile-picture"></div>
-        <div class="header-text">
-            <div class="header-name">
-                <h1>Bingqian Lin</h1>
+    <main>
+      <section id="home" class="hero">
+        <div class="shell hero-grid">
+          <div class="portrait-card" aria-label="Profile image placeholder">
+            <img src="assets/me-cut-new-2.png" alt="Replace this placeholder with your portrait" />
+          </div>
+          <div class="intro">
+            <h1>Bingqian Lin <span>(林冰倩)</span></h1>
+            <div class="rule"></div>
+            <p class="role">Postdoctoral Researcher · Shanghai Jiao Tong University</p>
+            <p class="research-line">Research Interest: Embodied AI, Vision-Language Navigation, Multimodal Understanding</p>
+            <p class="research-line">Email: linbq666@sjtu.edu.cn</p>
+            <div class="contact-grid">
             </div>
-            <div class="header-subtitle">
-                Postdoctoral Fellow, Shanghai Jiao Tong University
-            </div>
-            <div class="header-links">
-                <a class="btn" href="#contact">Email</a> /
-                <a class="btn" href="https://scholar.google.com/citations?user=7tNbAJcAAAAJ&hl=zh-CN&view_op=list_works&sortby=pubdate">Google Scholar</a> /
-                <a class="btn" href="https://github.com/expectorlin">GitHub</a> /
-		<a class="btn" href="files/Resume_en.pdf">CV</a>
-            </div>
+          </div>
         </div>
-    </div>
-</div>
-<style>
-    .section-spacing {
-        margin-bottom: 10px; /* Adjusts space between sections */
-    }
+      </section>
 
-    .list-item-spacing {
-        margin-bottom: 5px; /* Adjusts space between list items */
-    }
-</style>
-<div class="content" style="padding-bottom: 64px;">
-    <div>
-        <p>
-            I am currently a postdoctoral fellow at the <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, working with Prof. <a href="https://www.mvig.org/">Cewu Lu</a>. I received my Ph.D. degree in Electronics Information Engineering at <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>, advised by Prof. <a href="https://lemondan.github.io/">Xiaodan Liang</a> and Prof. <a href="http://www.linliang.net/">Liang Lin</a> at the <a href="https://www.sysu-hcp.net/">Human Cyber Physical Intelligence Integration Lab (HCP-I2 Lab)</a>. I was a research intern at Huawei Noah’s Ark Laboratory, advised by Prof. <a href="https://people.ucas.ac.cn/~jzliu?language=en">Jianzhuang Liu</a>.
-            I received my BS and MS degrees from the University of Electronic Science and Technology of China (<a href="https://www.uestc.edu.cn/">UESTC</a>) and the Xiamen University (<a href="https://www.xmu.edu.cn/">XMU</a>).<br/><br/>
-            My research interest lies in <span class="bold">Multi-modal understanding</span>, <span class="bold">Embodied AI</span>, and <span class="bold">Computer vision</span>. Currently, I am focusing on building generalist embodied agents driven by foundation models and the world model theory.
-        </p>
-    </div>
-    <div class="section-spacing">
-	<div>
-	    <h2 class="noselect">Recent Activities</h2>
-	    <ul>
-		<li class="list-item-spacing" ><span class="bold">[06/2026]</span> &nbsp; One paper on Mobile Manipulation VLA model driven by Synergistic Declarative Memory is accepted by <a href="https://arxiv.org/abs/2511.18112">ECCV 2026</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[03/2026]</span> &nbsp; One paper on Self-Improving Embodied Reasoning for LLM-based VLN is accepted by <a href="https://arxiv.org/abs/2506.01551">TPAMI 2026</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[10/2025]</span> &nbsp; One paper on Observation-Instruction Rewriting Driven by Foundation Models for the VLN task is accepted by <a href="https://arxiv.org/abs/2503.18065">TNNLS 2025</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[09/2025]</span> &nbsp; Two papers on Spatial Intelligence Evaluation, <a href="https://arxiv.org/abs/2505.20148">MineAnyBuild</a> and <a href="https://arxiv.org/abs/2506.08708">PhyBlock</a>, are accepted by NeurIPS 2025 Datasets and Benchmarks Track.</li>
-		<li class="list-item-spacing" ><span class="bold">[03/2025]</span> &nbsp; One paper on Navigational Chain-of-Thought for the VLN task is accepted by <a href="https://arxiv.org/abs/2403.07376">TPAMI 2025</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[12/2024]</span> &nbsp; One paper on Affordance-Oriented Planning for the VLN task is accepted by <a href="https://arxiv.org/abs/2407.05890">AAAI 2025</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[09/2024]</span> &nbsp; One paper on Waypoint-Aware World Model for Robotic Manipulation is accepted by <a href="https://arxiv.org/abs/2410.10394">Neurips 2024</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[06/2024]</span> &nbsp; Excited to receive Honors Graduate from Sun Yat-sen University!</li>
-		<li class="list-item-spacing" ><span class="bold">[05/2024]</span> &nbsp; One paper on Correctable Landmark Discovery for the VLN task is accepted by <a href="https://arxiv.org/abs/2405.18721">IEEE TPAMI</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[05/2024]</span> &nbsp; One paper on Map-oriented Prompting for the VLN task is accepted by <a href="https://arxiv.org/abs/2401.07314">ACL 2024</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[05/2024]</span> &nbsp; I successfully defended my Ph.D. dissertation!</li>
-		<li class="list-item-spacing" ><span class="bold">[04/2023]</span> &nbsp; One paper on Knowledge-Enhanced Medical Multimodal Pretraining is available at <a href="https://arxiv.org/abs/2304.14204">Preprint</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[04/2023]</span> &nbsp; One paper on Training Deviation-robust Agents for the VLN task is available at <a href="https://arxiv.org/abs/2403.05770">TPAMI 2023</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[03/2023]</span> &nbsp; One paper on Dynamic Graph Enhanced Contrastive Learning for the MRG task is available at <a href="https://arxiv.org/abs/2303.10323">CVPR 2023</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[02/2023]</span> &nbsp; One paper on Actional Atomic-Concept Learning for the VLN task is available at <a href="https://arxiv.org/abs/2302.06072">AAAI 2023</a>.</li>
-		<li class="list-item-spacing" ><span class="bold">[03/2022]</span> &nbsp; One paper on Modality-Aligned Action Prompts for the VLN task is available at <a href="https://arxiv.org/abs/2205.15509">CVPR 2022</a>.</li>
-		    
-		<!-- Add more list items here if needed -->
-	    </ul>
-	</div>
-    </div>
-    <div>
-        <h2 class="noselect">Selected Publications/Preprints</h2>
-	<div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/navcot.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2403.07376">NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning</a><br/>
-                <span class="bold">Bingqian Lin</span>*, Yunshuang Nie*, Ziming Wei, Jiaqi Chen, Shikui Ma, Jianhua Han, Hang Xu, Xiaojun Chang, Xiaodan Liang<br/>
-                <span class="italic">TPAMI</span>, 2025<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2403.07376">arXiv</a> / <a class="btn" href="https://github.com/expectorlin/NavCoT">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:4eMBD5Yhe-kJ:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuBElg:AFWwaeYAAAAAZn-HCli5EWPUUsvz76wDLMbWjvw&scisig=AFWwaeYAAAAAZn-HClJR8L5hT8rfLMtHijkmTAw&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
+      <section id="biography" class="section shell">
+        <div class="section-heading"><h2>📖 Biography</h2></div>
+        <div class="prose biography-copy">
+          <p>Bingqian Lin is currently a postdoctoral researcher at the <a href="https://soai.sjtu.edu.cn/">School of Artificial Intelligence</a>, <a href="https://www.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, working with <a href="https://www.mvig.org/">Prof. Cewu Lu</a>. She received the Ph.D. degree in Electronics Information Engineering at <a href="https://www.sysu.edu.cn/">Sun Yat-sen University</a>, advised by <a href="https://www.sysu-hcp.net/faculty/xiaodanliang.html">Prof. Xiaodan Liang</a> and <a href="http://www.linliang.net/">Prof. Liang Lin</a> at the <a href="https://www.sysu-hcp.net/">Human Cyber Physical Intelligence Integration Lab (HCP-I2 Lab)</a>. She was selected for the 2025 China National Postdoctoral Program for Innovative Talents. She was a research intern at Huawei Noah’s Ark Laboratory focusing on vision-language pretraining from 2021 to 2023. As the first author, she has published multiple papers in top-tier international journals/conferences, including IEEE TPAMI, CVPR, Neurips, AAAI, etc. She also serves as a reviewer for prestigious international publications such as IEEE TPAMI, IEEE TMM, CVPR, NeurIPS, ICLR, etc. Her research interest lies in Embodied AI, Vision-Language Navigation, and Multi-modal Understanding.</p>
+          <p>林冰倩，2024年至今在上海交通大学人工智能学院从事博士后/助理研究员工作，师从卢策吾教授 (国家长江学者特聘教授) 。2024年于中山大学获博士学位，师从梁小丹教授 (国家万人青拔人才，教育部U40人才) 与林倞教授 (国家杰青)。入选2025年人社部博士后创新人才支持计划（博新计划，全国计算机科学与技术学科20人，总资助率约1%），获中国人工智能学会优秀博士学位论文奖（全国每年10名）、深圳人工智能优秀博士学位论文奖（深圳市每年3名）、上海交通大学"思源博士后"激励计划等荣誉。博后期间主持国家自然科学基金青年基金项目（C类）与中国博士后科学基金面上项目。2021年至2023年在华为诺亚方舟实验室任视觉语言预训练研究与应用算法研究员。以一作/共一身份在IEEE TPAMI、CVPR、Neurips、AAAI等国际顶级期刊/会议发表论文10余篇，并担任IEEE TPAMI、IEEE TMM、CVPR、Neurips、ICLR等多个国际出版物的审稿人。研究方向包括具身智能、视觉语言导航、多模态理解等领域。</p>
         </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/console.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2405.18721">Correctable Landmark Discovery via Large Models for Vision-Language Navigation</a><br/>
-                <span class="bold">Bingqian Lin</span>*, Yunshuang Nie*, Ziming Wei, Yi Zhu, Hang Xu, Shikui Ma, Jianzhuang Liu, Xiaodan Liang<br/>
-                <span class="italic">TPAMI</span>, 2024<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2405.18721">arXiv</a> / <a class="btn" href="https://github.com/expectorlin/CONSOLE">code</a> / <a class="btn" href="https://scholar.googleusercontent.com/scholar.bib?q=info:aawz8As7-isJ:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuDsYU:AFWwaeYAAAAAZn-FqYWKr6syabehBLI4bnvP60M&scisig=AFWwaeYAAAAAZn-FqdvwYHbg-gzrdzg3XjfXGqY&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a> 
-            </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="shell">
+          <div class="section-heading"><h2>🔥 News</h2></div>
+          <ol class="news-list">
+            <li><time datetime="2026-09">2026.06</time><p>One paper on Mobile Manipulation VLA model driven by Synergistic Declarative Memory is accepted by <a href="https://arxiv.org/abs/2511.18112">ECCV 2026</a>.</p></li>
+            <li><time datetime="2026-03">2026.03</time><p>One paper on Self-Improving Embodied Reasoning for LLM-based VLN is accepted by <a href="https://arxiv.org/abs/2506.01551">TPAMI 2026</a>.</p></li>
+            <li><time datetime="2025-10">2026.03</time><p>One paper on Observation-Instruction Rewriting Driven by Foundation Models for the VLN task is accepted by <a href="https://arxiv.org/abs/2503.18065">TNNLS 2025</a>.</p></li>
+            <li><time datetime="2025-09">2025.09</time><p>Two papers on Spatial Intelligence Evaluation, <a href="https://arxiv.org/abs/2505.20148">MineAnyBuild</a> and <a href="https://arxiv.org/abs/2506.08708">PhyBlock</a>, are accepted by NeurIPS 2025 Datasets and Benchmarks Track.</p></li>
+            <li><time datetime="2025-08">2025.08</time><p>Awarded with General Fund of China Postdoctoral Science Foundation (中国博士后科学基金面上资助)!</p></li>
+            <li><time datetime="2025-06">2025.06</time><p>Awarded with China National Postdoctoral Program for Innovative Talents (2025年度人社部博士后创新人才支持计划, 博新计划)!</p></li>
+            <li><time datetime="2025-03">2025.03</time><p>Awarded with Outstanding Doctoral Dissertation Award of Shenzhen Association for Artificial Intelligence (深圳人工智能优秀博士学位论文奖)!</p></li>
+            <li><time datetime="2025-03">2025.03</time><p>One paper on Navigational Chain-of-Thought for the VLN task is accepted by <a href="https://arxiv.org/abs/2403.07376">TPAMI 2025</a>.</p></li>
+            <li><time datetime="2025-01">2025.01</time><p>Awarded with Excellent Doctoral Dissertation of Chinese Association for Artificial Intelligence (CAAI) (中国人工智能学会优秀博士学位论文奖)!</p></li>
+            <li><time datetime="2024-12">2024.12</time><p>One paper on Affordance-Oriented Planning for the VLN task is accepted by <a href="https://arxiv.org/abs/2407.05890">AAAI 2025</a>.</p></li>
+            <li><time datetime="2024-06">2024.06</time><p>Excited to receive Honors Graduate from Sun Yat-sen University!</p></li>
+            <li><time datetime="2024-05">2024.05</time><p>One paper on Correctable Landmark Discovery for the VLN task is accepted by <a href="https://arxiv.org/pdf/2405.18721?">TPAMI 2024</a>.</p></li>
+            <li><time datetime="2024-05">2024.05</time><p>I successfully defended my Ph.D. dissertation!</p></li>
+          </ol>
         </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/mapgpt.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2401.07314">MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation</a><br/>
-                Jiaqi Chen, <span class="bold">Bingqian Lin</span>, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong<br/>
-                <span class="italic">ACL</span>, 2024<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2401.07314">arXiv</a> / <a class="btn" href="https://github.com/chen-judge/MapGPT">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:nQ7JSWn7GecJ:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuOGAk:AFWwaeYAAAAAZn-IAAmazTkgcw8AyPSB6A2lwiw&scisig=AFWwaeYAAAAAZn-IALbSxLp8hJW3jMy4AkGj_xs&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
+      </section>
+
+      <section id="publications" class="section shell">
+        <div class="section-heading"><h2>📝 Selected Publications</h2><a class="all-link" href="https://scholar.google.com/citations?user=7tNbAJcAAAAJ&hl=zh-CN">View all publications ↗</a></div>
+        <div class="publication-list">
+          <article class="publication">
+            <img src="assets/evolvenav.png" alt="Preview image for EvolveNav: Empowering LLM-Based Vision-Language Navigation via Self-Improving Embodied Reasoning paper" />
+            <div><h3>EvolveNav: Empowering LLM-Based Vision-Language Navigation via Self-Improving Embodied Reasoning</h3><p><strong>Bingqian Lin</strong>*, Yunshuang Nie*, Khun Loun Zai, Ziming Wei, Mingfei Han, Rongtao Xu, Minzhe Niu, Jianhua Han, Hanwang Zhang, Liang Lin, Bokui Chen, Cewu Lu, Xiaodan Liang</p><p class="venue">IEEE TPAMI, 2026</p><div class="tags"><a href="https://arxiv.org/abs/2506.01551">paper</a><a href="https://github.com/expectorlin/EvolveNav">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/echovla.png" alt="Preview image for EchoVLA: Robotic Vision-Language-Action Model with Synergistic Declarative Memory for Mobile Manipulation paper" />
+            <div><h3>EchoVLA: Robotic Vision-Language-Action Model with Synergistic Declarative Memory for Mobile Manipulation</h3><p>Min Lin*, Xiwen Liang*, <strong>Bingqian Lin</strong>*, Jingzhi Liu, Zijian Jiao, Kehan Li, Ziang Yan, Yu Sun, Weijia Liufu, Yuhan Ma, Jiarui Hu, Yuecheng Liu, Shen Zhao, Yuzheng Zhuang, Xiaodan Liang</p><p class="venue">ECCV, 2026</p><div class="tags"><a href="https://arxiv.org/abs/2511.18112">paper</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/ram.png" alt="Preview image for Unseen from seen: Rewriting observation-instruction using foundation models for augmenting vision-language navigation paper" />
+            <div><h3>Unseen from seen: Rewriting observation-instruction using foundation models for augmenting vision-language navigation</h3><p>Ziming Wei*, <strong>Bingqian Lin</strong>*, Yunshuang Nie, Jiaqi Chen, Shikui Ma, Hang Xu, Xiaodan Liang</p><p class="venue">IEEE TNNLS, 2025</p><div class="tags"><a href="https://arxiv.org/pdf/2503.18065">paper</a><a href="https://github.com/SaDil13/VLN-RAM">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/navcot.png" alt="Preview image for NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning paper" />
+            <div><h3>NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning</h3><p><strong>Bingqian Lin</strong>*, Yunshuang Nie*, Ziming Wei, Jiaqi Chen, Shikui Ma, Jianhua Han, Hang Xu, Xiaojun Chang, Xiaodan Liang</p><p class="venue">IEEE TPAMI, 2025</p><div class="tags"><a href="https://arxiv.org/abs/2403.07376">paper</a><a href="https://github.com/expectorlin/NavCoT">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/console.png" alt="Preview image for Correctable Landmark Discovery via Large Models for Vision-Language Navigation paper" />
+            <div><h3>Correctable Landmark Discovery via Large Models for Vision-Language Navigation</h3><p><strong>Bingqian Lin</strong>*, Yunshuang Nie*, Ziming Wei, Yi Zhu, Hang Xu, Shikui Ma, Jianzhuang Liu, Xiaodan Liang</p><p class="venue">IEEE TPAMI, 2024</p><div class="tags"><a href="https://arxiv.org/abs/2405.18721">paper</a><a href="https://github.com/expectorlin/CONSOLE">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/mapgpt.png" alt="Preview image for MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation paper" />
+            <div><h3>MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation</h3><p>Jiaqi Chen, <strong>Bingqian Lin</strong>, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong</p><p class="venue">ACL, 2024</p><div class="tags"><a href="https://arxiv.org/abs/2401.07314">paper</a><a href="https://github.com/chen-judge/MapGPT">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/proper.png" alt="Preview image for Towards Deviation-Robust Agent Navigation via Perturbation-Aware Contrastive Learning paper" />
+            <div><h3>Towards Deviation-Robust Agent Navigation via Perturbation-Aware Contrastive Learning</h3><p><strong>Bingqian Lin</strong>*, Yanxin Long*, Yi Zhu, Fengda Zhu, Xiaodan Liang, Qixiang Ye, Liang Lin</p><p class="venue">IEEE TPAMI, 2023</p><div class="tags"><a href="https://arxiv.org/abs/2403.05770">paper</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/aacl.png" alt="Preview image for Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation paper" />
+            <div><h3>Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation</h3><p><strong>Bingqian Lin</strong>, Yi Zhu, Xiaodan Liang, Liang Lin, Jianzhuang Liu</p><p class="venue">AAAI Oral, 2023</p><div class="tags"><a href="https://arxiv.org/abs/2302.06072">paper</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/adapt.png" alt="Preview image for ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts paper" />
+            <div><h3>ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts</h3><p><strong>Bingqian Lin</strong>, Yi Zhu, Zicong Chen, Xiwen Liang, Jianzhuang Liu, Xiaodan Liang</p><p class="venue">CVPR, 2022</p><div class="tags"><a href="https://arxiv.org/abs/2205.15509">paper</a><a href="https://github.com/expectorlin/ADAPT">code</a></div></div>
+          </article>
+          <article class="publication">
+            <img src="assets/dr-attacker.png" alt="Preview image for Adversarial Reinforced Instruction Attacker for Robust Vision-Language Navigation paper" />
+            <div><h3>Adversarial Reinforced Instruction Attacker for Robust Vision-Language Navigation</h3><p><strong>Bingqian Lin</strong>, Yi Zhu, Yanxin Long, Xiaodan Liang, Qixiang Ye, Liang Lin</p><p class="venue">IEEE TPAMI, 2021</p><div class="tags"><a href="https://arxiv.org/abs/2107.11252">paper</a><a href="https://github.com/expectorlin/DR-Attacker">code</a></div></div>
+          </article>
         </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/proper.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2403.05770">Towards Deviation-Robust Agent Navigation via Perturbation-Aware Contrastive Learning</a><br/>
-                <span class="bold">Bingqian Lin</span>*, Yanxin Long*, Yi Zhu, Fengda Zhu, Xiaodan Liang, Qixiang Ye, Liang Lin<br/>
-                <span class="italic">TPAMI</span>, 2023<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2403.05770">arXiv</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:7nR7E7Fqx44J:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuPn1I:AFWwaeYAAAAAZn-Jh1JrZAYs_IO67HjdtpFQTrE&scisig=AFWwaeYAAAAAZn-Jh3nD5sEa5EtLaAZohzQVY64&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
+      </section>
+
+      <section id="reviewer-services" class="section">
+        <div class="shell">
+          <div class="section-heading"><h2>👓 Reviewer Services</h2></div>
+          <ul class="service-list">
+            <li>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
+            <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+            <li>IEEE Transactions on Multimedia (TMM)</li>
+            <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
+            <li>IEEE Transactions on Medical Imaging (TMI)</li>
+            <li>IEEE Transactions on Automation Science and Engineering (TASE)</li>
+            <li>Pattern Recognition</li>
+            <li>Information Fusion</li>
+            <li>Neural Networks</li>
+            <li>Neurocomputing</li>
+            <li>Annual Conference on Neural Information Processing Systems (Neurips)</li>
+            <li>The International Conference on Learning Representations (ICLR)</li>
+            <li>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</li>
+            <li>International Conference on Computer Vision (ICCV)</li>
+            <li>European Conference on Computer Vision (ECCV)</li>
+            <li>Annual AAAI Conference on Artificial Intelligence (AAAI)</li>
+            <li>ACM Multimedia (ACM MM)</li>
+            <li>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</li>
+            <li>Annual Meeting of the Association for Computational Linguistics (ACL)</li>
+            <li>Empirical Methods in Natural Language Processing (EMNLP)</li>
+          </ul>
         </div>
-	<div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/motor.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2304.14204">Towards Medical Artificial General Intelligence via Knowledge-Enhanced Multimodal Pretraining</a><br/>
-                <span class="bold">Bingqian Lin</span>*, Zicong Chen*, Mingjie Li*, Haokun Lin, Hang Xu, Yi Zhu, Jianzhuang Liu, Wenjia Cai, Lei Yang, Shen Zhao, Chenfei Wu, Ling Chen, Xiaojun Chang, Yi Yang, Lei Xing, Xiaodan Liang<br/>
-                <span class="italic">arXiv</span>, 2023<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2304.14204">arXiv</a> / <a class="btn" href="https://github.com/chenzcv7/MOTOR">code</a> /  <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:QAtvH-V8wYAJ:scholar.google.com/&output=citation&scisdr=ClFhYC8oEMfL2CyjcGE:AFWwaeYAAAAAZoilaGFm6Kczd6AVG-OXuOJ6lsI&scisig=AFWwaeYAAAAAZoilaFUnl0gdBzWsKOUyIM58l9A&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">bibtex</a>
-            </div>
-        </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/DCL.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2303.10323">Dynamic Graph Enhanced Contrastive Learning for Chest X-ray Report Generation</a><br/>
-                Mingjie Li, <span class="bold">Bingqian Lin</span>, Zicong Chen, Haokun Lin, Xiaodan Liang, Xiaojun Chang<br/>
-                <span class="italic">CVPR</span>, 2023<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2303.10323">arXiv</a> / <a class="btn" href="https://github.com/mlii0117/DCL">code</a> /  <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:1Wc7Ou1uZxcJ:scholar.google.com/&output=citation&scisdr=ClFhYC8oEMfL2CygHEY:AFWwaeYAAAAAZoimBEb3WCLW2CA2h-aQ7-HYrwk&scisig=AFWwaeYAAAAAZoimBPRzJgVoEbkgpI97WH85M4M&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">bibtex</a>
-            </div>
-        </div>    
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/aacl.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2302.06072">Actional Atomic-Concept Learning for Demystifying Vision-Language Navigation</a><br/>
-                <span class="bold">Bingqian Lin</span>, Yi Zhu, Xiaodan Liang, Liang Lin, Jianzhuang Liu<br/>
-                <span class="italic">AAAI Oral</span>, 2023<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2302.06072">arXiv</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:mLWc7Y5goJ0J:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuPFH8:AFWwaeYAAAAAZn-JDH8pu3o5gKGApkq9EsYZexs&scisig=AFWwaeYAAAAAZn-JDO-zi0mqkG5H0L1spOvdEYU&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
-        </div>
-	<div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/RELCLIP.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://aclanthology.org/2022.emnlp-main.317/">RelCLIP: Adapting Language-Image Pretraining for Visual Relationship Detection via Relational Contrastive Learning</a><br/>
-                Yi Zhu*, Zhaoqing Zhu*, <span class="bold">Bingqian Lin</span>, Xiaodan Liang, Feng Zhao, Jianzhuang Liu<br/>
-                <span class="italic">EMNLP</span>, 2022<br/>
-                <a class="btn btn-red" href="https://aclanthology.org/2022.emnlp-main.317/">paper</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:6FC2Wx2Fzn8J:scholar.google.com/&output=citation&scisdr=ClFhYC8oEMfL2CygyZQ:AFWwaeYAAAAAZoim0ZTW1cPSEMP0B-OS9eV5-_E&scisig=AFWwaeYAAAAAZoim0ZTJrpQg0tScG5vbPi9ZHrI&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">bibtex</a>
-            </div>
-        </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/adapt.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2205.15509">ADAPT: Vision-Language Navigation with Modality-Aligned Action Prompts</a><br/>
-                <span class="bold">Bingqian Lin</span>, Yi Zhu, Zicong Chen, Xiwen Liang, Jianzhuang Liu, Xiaodan Liang<br/>
-                <span class="italic">CVPR</span>, 2022<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2205.15509">arXiv</a> / <a class="btn" href="https://github.com/expectorlin/ADAPT">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:7VMIlTCalAkJ:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuMaOw:AFWwaeYAAAAAZn-KcOyEVN7eDcrElZOdcgWArL4&scisig=AFWwaeYAAAAAZn-KcB2I1t3uStAuHJQhgRgO9So&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
-        </div>
-	<div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/CITL.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2112.04138">Contrastive Instruction-Trajectory Learning for Vision-Language Navigation</a><br/>
-                Xiwen Liang, Fengda Zhu, Yi Zhu, <span class="bold">Bingqian Lin</span>, Bing Wang, Xiaodan Liang<br/>
-                <span class="italic">AAAI</span>, 2022<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2112.04138">arXiv</a> / <a class="btn" href="https://github.com/liangcici/CITL-VLN">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:53ukXGvhvjoJ:scholar.google.com/&output=citation&scisdr=ClFhYC8oEMfL2CyuFoY:AFWwaeYAAAAAZoioDoY5J1uhrSNAEhccQlkNeLk&scisig=AFWwaeYAAAAAZoioDvBxS93Fn3X9tFoNTFu7qfc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">bibtex</a>
-            </div>
-        </div>
-        <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/dr-attacker.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2107.11252">Adversarial Reinforced Instruction Attacker for Robust Vision-Language Navigation</a><br/>
-                <span class="bold">Bingqian Lin</span>, Yi Zhu, Yanxin Long, Xiaodan Liang, Qixiang Ye, Liang Lin<br/>
-                <span class="italic">TPAMI</span>, 2021<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2107.11252">arXiv</a> / <a class="btn" href="https://github.com/expectorlin/DR-Attacker">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:YtupTQ9fM3UJ:scholar.google.com/&output=citation&scisdr=ClFwuykLEMfL2NuNNQQ:AFWwaeYAAAAAZn-LLQRN1Y6AhWbndK0D7B1lDn8&scisig=AFWwaeYAAAAAZn-LLSHgZ9phYLkaiZJISD-vK5c&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
-            </div>
-        </div>
-	<div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(files/CMN.png);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2003.06745">Vision-Dialog Navigation by Exploring Cross-modal Memory</a><br/>
-                Yi Zhu, Fengda Zhu, Zhaohuan Zhan, <span class="bold">Bingqian Lin</span>, Jianbin Jiao, Xiaojun Chang, Xiaodan Liang<br/>
-                <span class="italic">CVPR</span>, 2020<br/>
-                <a class="btn btn-red" href="https://arxiv.org/abs/2003.06745">arXiv</a> / <a class="btn" href="https://github.com/yeezhu/CMN.pytorch">code</a> / <a class="btn btn-dark" href="https://scholar.googleusercontent.com/scholar.bib?q=info:uC_747FIaQkJ:scholar.google.com/&output=citation&scisdr=ClFhYC8oEMfL2CyupU4:AFWwaeYAAAAAZoiovU4QzSa-uw3jOZYpP9ZPfT4&scisig=AFWwaeYAAAAAZoiovZp7_I5aEKjjHPJaZqX2ego&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1">bibtex</a>
-            </div>
-        </div>
-    </div>
-    <div class="section-spacing">
-	<div>
-	    <h2 class="noselect">Academic Services</h2>
-	    <span class="bold">Reviewer for Journal</span><br/>
-	    <ul>
-		<li class="list-item-spacing" >IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
-		<li class="list-item-spacing" >IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
-		<li class="list-item-spacing" >IEEE Transactions on Multimedia (TMM)</li>
-		<li class="list-item-spacing" >IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
-		<li class="list-item-spacing" >IEEE Transactions on Medical Imaging (TMI)</li>
-		<li class="list-item-spacing" >IEEE Transactions on Automation Science and Engineering (TASE)</li>
-		<li class="list-item-spacing" >Pattern Recognition</li>
-		<li class="list-item-spacing" >Information Fusion</li>
-		<li class="list-item-spacing" >Neural Networks</li>
-		<li class="list-item-spacing" >Neurocomputing</li>
-		<!-- Add more list items here if needed -->
-	    </ul>
-	    <span class="bold">Reviewer for Conference</span><br/>
-	    <ul>
-		<li class="list-item-spacing" >Annual Conference on Neural Information Processing Systems (Neurips)</li>
-		<li class="list-item-spacing" >The International Conference on Learning Representations (ICLR)</li>
-		<li class="list-item-spacing" >IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</li>
-		<li class="list-item-spacing" >International Conference on Computer Vision (ICCV)</li>
-		<li class="list-item-spacing" >European Conference on Computer Vision (ECCV)</li>
-		<li class="list-item-spacing" >Annual AAAI Conference on Artificial Intelligence (AAAI)</li>	
-		<li class="list-item-spacing" >ACM Multimedia (ACM MM)</li>
-		<li class="list-item-spacing" >IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</li>
-		<li class="list-item-spacing" >Annual Meeting of the Association for Computational Linguistics (ACL)</li>
-		<li class="list-item-spacing" >Empirical Methods in Natural Language Processing (EMNLP)</li>
-		<!-- Add more list items here if needed -->
-	    </ul>
-	</div>
-    </div>
-    <div class="section-spacing">
-	<div>
-	    <h2 class="noselect">Honors and Awards</h2>
-	    <ul>
-		<li class="list-item-spacing" >Excellent Doctoral Dissertation, Chinese Association for Artificial Intelligence (CAAI), 2024 (10 awardees per year)</li>
-		<li class="list-item-spacing" >Outstanding Doctoral Dissertation Award, Shenzhen Association for Artificial Intelligence, 2024 (3 awardees per year)</li>
-		<li class="list-item-spacing" >Excellent scientific papers, Shenzhen Association for Science and Technology, 2024</li>
-		<li class="list-item-spacing" >Honors Graduate, Sun Yat-sen University, 2024</li>
-		<!-- Add more list items here if needed -->
-	    </ul>
-	</div>
-    </div>
-    <div class="noselect">
-        <a id="contact"></a>
-        <h2>Contact</h2>
-        You are very welcome to contact me regarding my research. I typically respond within a few days.<br/>
-	I can be contacted directly at <span class="bold">bingqianlin</span> [at] <span class="bold">126</span>.com
-    </div>
-</div>
-<div class="footer noselect">
-    <div class="footer-content">
-        Thanks for the website design from Nicklas Hansen <a href="https://nicklashansen.github.io/">here</a>.
-    </div>
-</div>
+      </section>
+
+      <section id="awards" class="section shell">
+        <div class="section-heading"><h2>🎖 Awards &amp; Funds</h2></div>
+        <ul class="awards-list">
+          <li><time datetime="2025">2025</time><p>Young Scientists Fund of the National Natural Science Foundation of China (国家自然科学基金青年基金项目 C 类)</p></li>
+          <li><time datetime="2025">2025</time><p>General Fund of China Postdoctoral Science Foundation (中国博士后科学基金面上资助)</p></li>
+          <li><time datetime="2025">2025</time><p>China National Postdoctoral Program for Innovative Talents (2025年度博士后创新人才支持计划)</p></li>
+          <li><time datetime="2024">2024</time><p>Excellent Doctoral Dissertation of Chinese Association for Artificial Intelligence (CAAI) (中国人工智能学会优秀博士学位论文奖)</p></li>
+          <li><time datetime="2024">2024</time><p>Outstanding Doctoral Dissertation Award of Shenzhen Association for Artificial Intelligence (深圳人工智能优秀博士学位论文奖)</p></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer><div class="shell"><p>© <span id="year"></span> Bingqian Lin. All Rights Reserved.</p><a href="#home">Back to top ↑</a></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
